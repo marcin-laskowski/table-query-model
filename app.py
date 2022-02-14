@@ -27,7 +27,7 @@ def main():
                          article=article,
                          allow_flagging='never')
     # Use this config when running on Docker
-    iface.launch(server_name="0.0.0.0", server_port=7000)
+    iface.launch(server_name="0.0.0.0", server_port=8000)
     # iface.launch(enable_queue=True)
 
 
